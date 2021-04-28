@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardCase {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feedCard {
+    border: solid 4px black;
+    margin: 0px 5% 15% 5%;
+    text-align: center;
+    padding: 2% 5%;
+    min-height: 150px;
+}
+
+.feedCardHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+.feedHead{
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1% 0px;
+}
+
+.header{
+    background-color: black;
+    height: 50px;
+    color: white;
+    padding: 10px 0px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.likeButton {
+    width: 75px;
+    height: 25px;
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+}
+
+.link{
+    font-size: .75rem;
+    margin-bottom: 40%;
+}
+
+.mainCont{
+    padding: 0px 25%;
+}
+
+.userCard {
+    outline: solid 4px black;
+    display: flexbox;
+    height: 250px;
+    width: 150px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.userCard >*{
+    display: block;
+}
+.userName, .link{
+    margin-top: 25%;
+}
+
+.userImg {
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border: soild 2px black;
+    border-radius: 50%;
+}
